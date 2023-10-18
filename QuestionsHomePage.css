@@ -1,0 +1,94 @@
+
+.questions-home {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .question-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .question-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .question-list h3 {
+    margin: 0;
+  }
+
+
+/* QuestionsHomePage.css */
+
+/* Style for the "Add a New Question" section */
+.add-question {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.add-question h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.add-question form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the form horizontally */
+  margin-left: 10px; /* Push the form to the right */
+  margin-right: 10px; /* Push the form to the left */
+
+
+  
+  
+}
+
+/* Style for individual input fields */
+.add-question label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.add-question input[type="text"],
+.add-question textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-question input[type="text"]::placeholder,
+.add-question textarea::placeholder {
+  color: #999;
+}
+
+.add-question button[type="button"] {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.add-question button[type="button"]:hover {
+  background-color: #0058b3;
+}
+
+  
